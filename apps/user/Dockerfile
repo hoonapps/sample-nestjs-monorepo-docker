@@ -7,6 +7,6 @@ RUN yarn install
 
 COPY . .
 
-RUN yarn build
+RUN yarn build:user
 
 CMD ["yarn", "start:user"]
